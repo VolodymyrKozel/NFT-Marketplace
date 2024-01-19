@@ -72,7 +72,7 @@ body {
 }
 
 svg {
-    fill: #fff;
+  fill: #fff;
 }
 
 /* Utility clases */
@@ -100,7 +100,14 @@ svg {
   max-width: 375px;
   margin: 0 auto;
 }
-
+.section-padding {
+  padding: 40px 0;
+}
+.h2 {
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
 @media screen and (min-width: 834px) {
   .container {
     max-width: 750px;
@@ -109,13 +116,19 @@ svg {
     max-width: 834px;
     padding: 0 50px;
   }
+  .section-padding {
+    padding: 80px;
+  }
 }
 @media screen and (min-width: 1280px) {
-    .container {
-      max-width: 1046px;
-    }
-    .container-header {
-        max-width: 1180px;
-        padding: 0 50px;
-      }
+  .container {
+    max-width: 1110px;
   }
+  .container-header {
+    max-width: 1280px;
+  }
+  .h2 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+}
