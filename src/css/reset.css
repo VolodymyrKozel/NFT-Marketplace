@@ -25,7 +25,10 @@ a {
 }
 
 button {
+  color: inherit;
+  font-size: inherit;
   cursor: pointer;
+  border: none;
 }
 
 img {

@@ -1,0 +1,75 @@
+<section class="hero">
+  <div class="container hero-flex">
+    <div class="hero-description">
+        <h1 class="hero-title">Discover digital art & Collect NFTs</h1>
+        <p class="hero-text">
+          NFT marketplace UI created with Anima for Figma. Collect, buy and sell art
+          from more than 20k NFT artists.
+        </p>
+    </div>
+    <div class="hero-img-wrapper">
+        <picture class="hero-main-img">
+          <!-- Desktop -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="./img/hero/1280-hero.jpg 1x, ./img/hero/1280-hero@2x.jpg 2x"
+            width="510"
+            height="401"
+          />
+          <!-- Tablet -->
+          <source
+            media="(min-width: 834px)"
+            srcset="./img/hero/hero-tab.jpg 1x, ./img/hero/hero-tab@2x.jpg 2x"
+            width="330"
+            height="221"
+          />
+          <!-- Mobile -->
+          <source
+            media="(max-width: 833px)"
+            srcset="../img/hero/hero-mob.jpg 1x, ./img/hero/hero-mob@2x.jpg 2x"
+            width="315"
+            height="206"
+          />
+          <img
+            class="hero-img-tag"
+            src="./img/hero/1280-hero.jpg"
+            alt="outer space"
+            width="315"
+            height="206"
+          />
+        </picture>
+        <div class="hero-img-text-wrapper">
+            <h2 class="hero-img-title">Space Walking</h2>
+            <div class="hero-avatar-wrapper">
+                <img
+                class="hero-avetar"
+                src="./img/avatars/Avatar14.jpg"
+                alt="avatar"
+                width="24"
+                height="24" />
+                <p class="hero-avatar-name">Animakid</p>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-primary btn-hero" type="button">
+      <svg class="icon-svg-logo" width="20" height="20">
+        <use class="use-icon" href="./img/icons.svg#icon-Rocket2"></use>
+      </svg>
+      Get Started
+    </button>
+    <ul class="hero-list">
+        <li class="hero-list-item">
+            <p class="list-title">240k+ </p>
+            <p class="list-text">Total Sale</p>
+        </li>
+        <li>
+            <p  class="list-title">100k+</p>
+            <p class="list-text">Auctions</p>
+        </li>
+        <li>
+            <p  class="list-title">240k+</p>
+            <p class="list-text">Artists</p>
+        </li>
+    </ul>
+  </div>
+</section>
