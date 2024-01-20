@@ -9,14 +9,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin-bottom: 15px;
-}
-.trend-gallery li:not(:first-child) {
-  display: none;
 }
 .trend-gallery-link {
 }
 .gallery-img {
+  margin-bottom: 15px;
   border-radius: 22px;
   overflow: hidden;
 }
@@ -47,15 +44,16 @@
   overflow: hidden;
 }
 .trend-caregory {
-/* H5 - Work Sans */
-font-family: "Work Sans";
-font-size: 22px;
-font-weight: 600;
-text-transform: capitalize;
+  /* H5 - Work Sans */
+  font-family: 'Work Sans';
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 10px;
 }
 .trend-avatar {
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 12px;
 }
 .avatar-img {
   border-radius: 50%;
@@ -63,7 +61,7 @@ text-transform: capitalize;
 }
 
 @media screen and (min-width: 834px) {
-    .trend-gallery li:not(:last-child) {
-        display: flex;
-      }
+  .trend-gallery li:not(:last-child) {
+    display: flex;
+  }
 }
