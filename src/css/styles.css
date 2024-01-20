@@ -4,6 +4,7 @@
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./trending-collection.css');
+@import url('./top-creators.css');
 
 :root {
   --ff-secondary: "Space Mono", monospace;
