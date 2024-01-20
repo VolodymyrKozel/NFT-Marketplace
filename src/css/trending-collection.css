@@ -39,12 +39,14 @@
   gap: 15px;
   margin-bottom: 15px;
 }
+.trend-list-item {
+  width: calc((100% - 15px*2) / 3);
+}
 .trend-list-img {
   border-radius: 22px;
   overflow: hidden;
 }
 .trend-caregory {
-  /* H5 - Work Sans */
   font-family: 'Work Sans';
   font-size: 22px;
   font-weight: 600;
