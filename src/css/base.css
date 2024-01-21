@@ -100,13 +100,26 @@ svg {
   max-width: 375px;
   margin: 0 auto;
 }
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
 .section-padding {
   padding: 40px 0;
 }
+/* typografy */
 .h2 {
   font-size: 28px;
   font-weight: 600;
   text-transform: capitalize;
+}
+.caption-gray {
+  color: #858584;
+font-family: "Space Mono";
+font-size: 12px;
+line-height: 1.1;
 }
 @media screen and (min-width: 834px) {
   .container {

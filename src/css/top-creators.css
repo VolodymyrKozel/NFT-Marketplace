@@ -1,11 +1,6 @@
 .top-creators {
 }
-.top-flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: space-between;
-}
+
 .top-c-title-h2 {
   margin-bottom: 10px;
 }

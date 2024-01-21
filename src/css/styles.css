@@ -6,6 +6,10 @@
 @import url('./trending-collection.css');
 @import url('./top-creators.css');
 @import url('./browse-categories.css');
+@import url('./discover.css');
+@import url('./info.css');
+@import url('./how-it-works.css');
+@import url('.//subscribe.css');
 
 :root {
   --ff-secondary: "Space Mono", monospace;

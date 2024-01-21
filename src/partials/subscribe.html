@@ -1,0 +1,56 @@
+<section class="subscribe section-padding">
+  <div class="container">
+    <div class="subscribe-container">
+      <picture class="subscribe-img">
+        <!-- Tablet -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/subscribe/desktop.jpg    1x,
+            ./img/subscribe/desktop@2x.jpg 2x
+          "
+          width="425"
+          height="310"
+        />
+        <!-- Tablet -->
+        <source
+          media="(min-width: 834px)"
+          srcset="./img/subscribe/tab.jpg 1x, ./img/subscribe/tab@2x.jpg 2x"
+          width="300"
+          height="280"
+        />
+        <!-- Mobile -->
+        <source
+          media="(max-width: 767px)"
+          srcset="./img/subscribe/mob.jpg 1x, ./img/subscribe/mob@2x.jpg 2x"
+          width="315"
+          height="255"
+        />
+        <img src="./img/subscribe/desktop.jpg" alt="astronaut" />
+      </picture>
+      <div class="wrapper-subscribe">
+        <h2 class="subscribe-title h2">Join our weekly digest</h2>
+        <p class="subscribe-text">
+          Get exclusive promotions & updates straight to your inbox.
+        </p>
+        <form class="subscribe-form" action="./index.html">
+          <input
+            required
+            class="subscribe-input"
+            type="email"
+            placeholder="Enter Your Email Address"
+          />
+          <button class="btn btn-primary btn-subscribe" type="submit">
+            <svg class="icon-svg-logo" width="20" height="20">
+              <use
+                class="use-icon"
+                href="./img/icons.svg#icon-EnvelopeSimple"
+              ></use>
+            </svg>
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
